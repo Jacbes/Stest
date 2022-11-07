@@ -1,0 +1,11 @@
+POST http://localhost:8080/products/
+Content-Type: application/json
+
+{
+  "name": "apple",
+  "price": 100
+}
+
+###
+GET http://localhost:8080/products
+
